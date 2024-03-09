@@ -55,10 +55,15 @@ const Sidebar = () => {
       <div className="py-4 my-5 bg-gray-200 dark:bg-dark-200 mx-[-1rem]">
         <div className="flex justify-center items-center space-x-2">
           <GoLocation />
-          <span className="">Cairo, Egypt</span>
+          <span>Cairo, Egypt</span>
         </div>
-        <p className="my-2">m.ramadan@gmail.com</p>
-        <p className="my-2">01100594017 / 01551887408</p>
+        <a href="mailto:m.ramadan181199@gmail.com" target="__blank" className="my-2 block hover:underline">m.ramadan181199@gmail.com</a>
+        <a href="https://wa.me/201100594017" target="__blank" className="hover:underline block">Message me on WhatsApp</a>
+        <div className="my-2">
+          <a href="tel:+201100594017" target="__blank" className="hover:underline">+201100594017</a>
+          <span> / </span>
+          <a href="tel:+201551887408" target="__blank" className="hover:underline">+201551887408</a>
+        </div>
       </div>
       {/* Email Button  */}
       <button

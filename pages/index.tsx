@@ -2,7 +2,6 @@ import { fadeInUp, routeAnimation, stagger } from "@/animations";
 import ServiceCard from "@/components/ServiceCard";
 import { services } from "@/data";
 import { motion } from "framer-motion";
-import { GetServerSidePropsContext, GetStaticPropsContext } from "next";
 
 const Home = () => {
   return (
@@ -46,23 +45,3 @@ const Home = () => {
 };
 
 export default Home;
-
-// export const getServerSideProps = async (context: GetServerSidePropsContext) => {
-//   const data = await (await fetch("http://localhost:3000/api/services")).json();
-
-//   return {
-//     props: {
-//       services: data,
-//     },
-//   };
-// };
-
-// export const getStaticProps = async (context: GetStaticPropsContext) => {
-//   const data = await (await fetch("http://localhost:3000/api/services")).json();
-
-//   return {
-//     props: {
-//       services: data,
-//     },
-//   };
-// };
