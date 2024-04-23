@@ -8,12 +8,11 @@ export interface IService {
 
 export interface ISkill {
   name: string;
-  level: string;
   Icon: IconType;
 }
 
 export interface IProject {
-  id: number
+  id: number;
   name: string;
   description: string;
   image_path: string;

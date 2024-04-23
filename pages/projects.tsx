@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { useState } from "react";
 import ProjectCard from "@/components/ProjectCard";
 import ProjectNavbar from "@/components/ProjectNavbar";
@@ -26,41 +27,46 @@ const Projects = () => {
   };
 
   return (
-    <motion.main
-      className="py-2 px-5 overflow-y-scroll h-[65vh]"
-      variants={routeAnimation}
-      initial="initial"
-      animate="animate"
-      exit="exit"
-    >
-      <ProjectNavbar
-        navActive={active}
-        handleFilterCategory={handleFilterCategory}
-      />
-
-      <motion.div
-        className="grid grid-cols-12 gap-4 my-3 relative"
-        variants={stagger}
+    <>
+      <Head>
+        <title>Mahmoud Ramadan | Projects</title>
+      </Head>
+      <motion.main
+        className="py-2 px-5 overflow-y-scroll h-[65vh]"
+        variants={routeAnimation}
         initial="initial"
         animate="animate"
+        exit="exit"
       >
-        {projects.map((project) => {
-          return (
-            <motion.div
-              className="col-span-12 sm:col-span-6 lg:col-span-4 p-2 bg-gray-200 dark:bg-dark-200 rounded-lg"
-              variants={fadeInUp}
-              key={project.name}
-            >
-              <ProjectCard
-                project={project}
-                showDetail={showDetail}
-                setShowDetail={setShowDetail}
-              />
-            </motion.div>
-          );
-        })}
-      </motion.div>
-    </motion.main>
+        <ProjectNavbar
+          navActive={active}
+          handleFilterCategory={handleFilterCategory}
+        />
+
+        <motion.div
+          className="grid grid-cols-12 gap-4 my-3 relative"
+          variants={stagger}
+          initial="initial"
+          animate="animate"
+        >
+          {projects.map((project) => {
+            return (
+              <motion.div
+                className="col-span-12 sm:col-span-6 lg:col-span-4 p-2 bg-gray-200 dark:bg-dark-200 rounded-lg"
+                variants={fadeInUp}
+                key={project.name}
+              >
+                <ProjectCard
+                  project={project}
+                  showDetail={showDetail}
+                  setShowDetail={setShowDetail}
+                />
+              </motion.div>
+            );
+          })}
+        </motion.div>
+      </motion.main>
+    </>
   );
 };
 

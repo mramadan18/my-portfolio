@@ -49,32 +49,30 @@ export const services: IService[] = [
 export const languages: ISkill[] = [
   {
     name: "HTML, CSS",
-    level: "90%",
     Icon: Bs0CircleFill,
   },
   {
-    name: "JS, ES6",
-    level: "80%",
+    name: "JS, ES6, jQuery",
     Icon: Bs0CircleFill,
   },
   {
-    name: "Bootstrap, Tailwindcss",
-    level: "97%",
+    name: "Bootstrap, Tailwindcss, materialui",
     Icon: Bs0CircleFill,
   },
   {
-    name: "Sass, TypeScript",
-    level: "85%",
+    name: "Sass, Pugjs",
     Icon: Bs0CircleFill,
   },
   {
     name: "React, NextJs",
-    level: "80%",
+    Icon: Bs0CircleFill,
+  },
+  {
+    name: "Angular, TypeScript, RxJS",
     Icon: Bs0CircleFill,
   },
   {
     name: "Redux, Toolkit",
-    level: "87%",
     Icon: Bs0CircleFill,
   },
 ];
@@ -82,22 +80,18 @@ export const languages: ISkill[] = [
 export const tools: ISkill[] = [
   {
     name: "Figma",
-    level: "75%",
     Icon: Bs0CircleFill,
   },
   {
     name: "Postman",
-    level: "70%",
     Icon: Bs0CircleFill,
   },
   {
     name: "Git & Github",
-    level: "80%",
     Icon: Bs0CircleFill,
   },
   {
     name: "Json Server",
-    level: "85%",
     Icon: Bs0CircleFill,
   },
 ];

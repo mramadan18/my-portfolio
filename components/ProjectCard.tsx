@@ -18,7 +18,6 @@ const ProjectCard: React.FunctionComponent<{
     description,
     deployed_url,
     github_url,
-    category,
     key_techs,
   },
   showDetail,
