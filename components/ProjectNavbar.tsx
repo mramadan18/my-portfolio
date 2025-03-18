@@ -30,11 +30,11 @@ const ProjectNavbar = ({ handleFilterCategory, navActive }: any) => {
         navActive={navActive}
         handleFilterCategory={handleFilterCategory}
       />
-      <NavItem
+      {/* <NavItem
         value="react"
         navActive={navActive}
         handleFilterCategory={handleFilterCategory}
-      />
+      /> */}
       <NavItem
         value="nextjs"
         navActive={navActive}

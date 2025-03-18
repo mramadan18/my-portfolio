@@ -68,11 +68,11 @@ export const languages: ISkill[] = [
     Icon: Bs0CircleFill,
   },
   {
-    name: "Angular, TypeScript, RxJS",
+    name: "ElectronJS (Desktop App), TypeScript",
     Icon: Bs0CircleFill,
   },
   {
-    name: "Redux, Toolkit",
+    name: "Redux, RTKQuery, Toolkit",
     Icon: Bs0CircleFill,
   },
 ];
@@ -110,6 +110,27 @@ export const projects: IProject[] = [
   },
   {
     id: 2,
+    name: "Erazone",
+    description:
+      "An educational platform that serves teachers and students, allowing teachers to create an account and upload their courses, assignments, and exams. Students can create an account and enroll in courses, view assignments, and exams.",
+    image_path: "/images/erazone.png",
+    deployed_url: "https://www.erazone.org",
+    github_url: "",
+    category: ["nextjs"],
+    key_techs: ["React", "Nextjs", "Redux", "Tailwindcss", "HeroUI"],
+  },
+  {
+    id: 3,
+    name: "Plaissir",
+    description: "A flight booking site with a support chatbot.",
+    image_path: "/images/plaissir.png",
+    deployed_url: "https://www.plaissir.com/",
+    github_url: "",
+    category: ["nextjs"],
+    key_techs: ["React", "Nextjs", "Tailwindcss", "HeroUI"],
+  },
+  {
+    id: 4,
     name: "Well Medic",
     description:
       "a real project with NextJS to sell medicines to a pharmacy in Hurghada",
@@ -120,7 +141,7 @@ export const projects: IProject[] = [
     key_techs: ["HTML", "CSS", "Tailwindcss", "React", "Nextjs"],
   },
   {
-    id: 4,
+    id: 5,
     name: "Quiz App",
     description:
       "a training project with HTML, CSS, JS I called the API to get questions",
@@ -131,7 +152,7 @@ export const projects: IProject[] = [
     key_techs: ["HTML", "CSS", "JavaScript", "Api"],
   },
   {
-    id: 5,
+    id: 6,
     name: "WeShare",
     description:
       "a training project with HTML, CSS, JS is a social networking site",

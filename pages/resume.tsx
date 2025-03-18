@@ -24,10 +24,10 @@ const Resume = () => {
             <div>
               <h5 className="my-2 text-xl font-bold">Faculty of commerce</h5>
               <p className="font-semibold">Helwan university(2019-2023)</p>
-              <p className="my-3">
+              {/* <p className="my-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Obcaecati repudiandae repellendus illo maxime
-              </p>
+              </p> */}
             </div>
           </motion.div>
           <motion.div variants={fadeInUp} initial="initial" animate="animate">
@@ -35,16 +35,16 @@ const Resume = () => {
             <div>
               <h5 className="my-2 text-xl font-bold">Frond End Developer</h5>
               <p className="font-semibold">Manarat Al-asr (2023-on)</p>
-              <p className="my-3">
+              {/* <p className="my-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Obcaecati repudiandae repellendus illo maxime
-              </p>
+              </p> */}
             </div>
           </motion.div>
         </div>
 
         {/* languages & tool */}
-        <div className="grid gap-6 md:grid-cols-2">
+        <div className="grid gap-6 md:grid-cols-2 mt-6">
           <div>
             <h5 className="my-3 text-2xl font-bold">Languages & Frameworks</h5>
             <div className="my-2">
