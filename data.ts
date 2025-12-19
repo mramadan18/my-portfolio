@@ -131,17 +131,39 @@ export const projects: IProject[] = [
   },
   {
     id: 4,
-    name: "Well Medic",
+    name: "TradBazaar",
     description:
-      "a real project with NextJS to sell medicines to a pharmacy in Hurghada",
-    image_path: "/images/well.png",
-    deployed_url: "https://well-medic.com",
-    github_url: "https://github.com/mramadan18/well-pharmacy",
-    category: ["nextjs"],
-    key_techs: ["HTML", "CSS", "Tailwindcss", "React", "Nextjs"],
+      "A digital marketplace for traditional handmade crafts with responsive UI and dynamic product listings.",
+    image_path: "/images/tradBazaar.png",
+    deployed_url: "https://tradbazaar.com/",
+    github_url: "",
+    category: ["vanilla js"],
+    key_techs: ["HTML", "Tailwindcss", "Flowbite", "JavaScript", "Laravel"],
   },
   {
     id: 5,
+    name: "3D Spacey (Desktop App)",
+    description:
+      "A hybrid desktop application integrated with 3DS Max for asset management, featuring local and online modes for file and account management.",
+    image_path: "/images/3d-spacey.png",
+    deployed_url: "https://www.nextspacey.com/",
+    github_url: "",
+    category: ["electronjs"],
+    key_techs: ["ElectronJS", "TypeScript", "Nextjs", "Tailwindcss", "HeroUI"],
+  },
+  // {
+  //   id: 4,
+  //   name: "Well Medic",
+  //   description:
+  //     "a real project with NextJS to sell medicines to a pharmacy in Hurghada",
+  //   image_path: "/images/well.png",
+  //   deployed_url: "https://well-medic.com",
+  //   github_url: "https://github.com/mramadan18/well-pharmacy",
+  //   category: ["nextjs"],
+  //   key_techs: ["HTML", "CSS", "Tailwindcss", "React", "Nextjs"],
+  // },
+  {
+    id: 6,
     name: "Quiz App",
     description:
       "a training project with HTML, CSS, JS I called the API to get questions",
@@ -152,7 +174,7 @@ export const projects: IProject[] = [
     key_techs: ["HTML", "CSS", "JavaScript", "Api"],
   },
   {
-    id: 6,
+    id: 7,
     name: "WeShare",
     description:
       "a training project with HTML, CSS, JS is a social networking site",

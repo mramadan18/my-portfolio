@@ -40,6 +40,11 @@ const ProjectNavbar = ({ handleFilterCategory, navActive }: any) => {
         navActive={navActive}
         handleFilterCategory={handleFilterCategory}
       />
+      <NavItem
+        value="electronjs"
+        navActive={navActive}
+        handleFilterCategory={handleFilterCategory}
+      />
     </ul>
   );
 };

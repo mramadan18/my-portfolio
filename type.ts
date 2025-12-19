@@ -22,4 +22,4 @@ export interface IProject {
   key_techs: string[];
 }
 
-export type Category = "all" | "vanilla js" | "react" | "nextjs";
+export type Category = "all" | "vanilla js" | "react" | "nextjs" | "electronjs";
