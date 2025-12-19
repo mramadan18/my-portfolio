@@ -30,7 +30,7 @@ const Sidebar = () => {
       </p>
       <a
         className="px-2 py-1 my-3 bg-gray-200 dark:bg-dark-200 rounded-full flex justify-center items-center"
-        href="/Mahmoud Cv.pdf"
+        href="/cv.pdf"
         download="Mahmoud Frontend CV"
       >
         <GiTie className="w-6 h-6" /> Download Resume
@@ -57,12 +57,36 @@ const Sidebar = () => {
           <GoLocation />
           <span>Cairo, Egypt</span>
         </div>
-        <a href="mailto:m.ramadan181199@gmail.com" target="__blank" className="my-2 block hover:underline">m.ramadan181199@gmail.com</a>
-        <a href="https://wa.me/201100594017" target="__blank" className="hover:underline block">Message me on WhatsApp</a>
+        <a
+          href="mailto:m.ramadan181199@gmail.com"
+          target="__blank"
+          className="my-2 block hover:underline"
+        >
+          m.ramadan181199@gmail.com
+        </a>
+        <a
+          href="https://wa.me/201100594017"
+          target="__blank"
+          className="hover:underline block"
+        >
+          Message me on WhatsApp
+        </a>
         <div className="my-2">
-          <a href="tel:+201100594017" target="__blank" className="hover:underline">+201100594017</a>
+          <a
+            href="tel:+201100594017"
+            target="__blank"
+            className="hover:underline"
+          >
+            +201100594017
+          </a>
           <span> / </span>
-          <a href="tel:+201551887408" target="__blank" className="hover:underline">+201551887408</a>
+          <a
+            href="tel:+201551887408"
+            target="__blank"
+            className="hover:underline"
+          >
+            +201551887408
+          </a>
         </div>
       </div>
       {/* Email Button  */}
